@@ -78,5 +78,9 @@ This project uses **simulated spatial sampling** to approximate **street-level A
 
 ---
 
+## 📌 Project Status
+Final prototype developed as part of AI/ML Hackathon with data-centric approach.
+
+---
 ## 👥 Team
 Hackathon Project – **5ManArmy**
