@@ -1,45 +1,82 @@
 # 🌍 AQI Prediction & Spatial Visualization System
 
 ## 📌 Overview
-This project predicts Air Quality Index (AQI) using Machine Learning and visualizes pollution levels using spatial heatmaps.
+This project predicts **Air Quality Index (AQI)** using **Machine Learning (XGBoost)** and visualizes pollution levels using **spatial heatmaps**. It follows a **data-centric approach** by improving data quality, integrating multiple data sources, and generating both **current and future AQI predictions**.
+
+---
 
 ## 🚀 Features
-- AQI prediction using XGBoost
-- Multi-source data (AQI + Weather)
-- Current & Future AQI heatmaps
-- Spatial approximation (IDW-inspired)
-- Risk level classification
-- Model evaluation (MAE, RMSE)
+- **AQI prediction** using XGBoost  
+- **Multi-source data integration** (AQI + Weather)  
+- **Current & Future AQI heatmaps**  
+- **Spatial approximation (IDW-inspired)**  
+- **AQI risk level classification**  
+- **Model evaluation (MAE, RMSE, R²)**  
+
+---
 
 ## 🧠 Tech Stack
-- Python
-- Pandas, NumPy
-- XGBoost
-- Folium (Heatmaps)
-- Scikit-learn
+- **Python**  
+- **Pandas, NumPy**  
+- **XGBoost**  
+- **Scikit-learn**  
+- **Folium (Heatmaps)**  
+
+---
 
 ## 📊 Workflow
-Data → Preprocessing → Model → Prediction → Spatial Mapping → Visualization → Risk Output
+**Data → Preprocessing → Feature Engineering → Model Training → AQI Prediction → Spatial Mapping → Visualization → Risk Classification**
 
-## 📍 Spatial Note
-This project uses simulated spatial sampling to approximate street-level AQI.
-In real-world deployment, real sensor data and true IDW/Kriging will be used.
+---
+
+## 🔗 Colab Notebook
+Run the full project here:  
+👉 https://colab.research.google.com/drive/1UkYuaGWqxEIB0C8DYvcp1N9WvnQII3fB?usp=sharing  
+
+---
+
+## 📂 Datasets
+
+**1. AQI Dataset (India Air Quality Data)**  
+https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india  
+
+**2. Weather Dataset (Daily Climate Data)**  
+https://www.kaggle.com/datasets/sumanthvrao/daily-climate-time-series-data  
+
+📌 **Note:**  
+Download the datasets from the above links and **upload them in Colab** before running the notebook.
+
+---
 
 ## ▶️ How to Run
-1. Open the notebook in Google Colab
-2. Click **Runtime → Run All**
-3. Upload dataset (or auto-download will work)
+1. Open the **Colab Notebook** (link above)  
+2. Click **Runtime → Run All**  
+3. Upload datasets when prompted  
+4. View outputs including **predictions and heatmaps**  
+
+---
+
+## 📍 Spatial Note
+This project uses **simulated spatial sampling** to approximate **street-level AQI variation** due to lack of real sensor coordinates. In real-world deployment, **true geospatial methods (IDW/Kriging)** and **live sensor data** will be used.
+
+---
 
 ## 📈 Output
-- AQI Predictions
-- Heatmaps (Current & Future)
-- Risk Classification
-- Performance Metrics
+- **Predicted AQI values**  
+- **Current AQI Heatmap**  
+- **Future AQI Heatmap**  
+- **AQI Risk Classification** (Good, Moderate, Poor, etc.)  
+- **Performance Metrics** (MAE, RMSE, R²)  
+
+---
 
 ## 📌 Future Improvements
-- Real-time sensor integration
-- True geospatial interpolation
-- Time-series forecasting
+- **Real-time AQI data integration (IoT sensors)**  
+- **Advanced spatial interpolation (IDW/Kriging)**  
+- **Time-series forecasting (LSTM/ARIMA)**  
+- **Deployment as web application/dashboard**  
+
+---
 
 ## 👥 Team
-Hackathon Project
+Hackathon Project – **5ManArmy**
