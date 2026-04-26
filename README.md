@@ -3,6 +3,8 @@
 ## 📌 Overview
 This project predicts **Air Quality Index (AQI)** using **Machine Learning (XGBoost)** and visualizes pollution levels using **spatial heatmaps**. It follows a **data-centric approach** by improving data quality, integrating multiple data sources, and generating both **current and future AQI predictions**.
 
+Developed as part of **TNSDC Naan Mudhalvan AI/ML Hackathon**.
+
 ---
 
 ## 🚀 Features
@@ -70,6 +72,11 @@ This project uses **simulated spatial sampling** to approximate **street-level A
 
 ---
 
+## 📌 Project Status
+**Final AQI Prediction System with Spatial Visualization** successfully developed as a working prototype.
+
+---
+
 ## 📌 Future Improvements
 - **Real-time AQI data integration (IoT sensors)**  
 - **Advanced spatial interpolation (IDW/Kriging)**  
@@ -78,9 +85,5 @@ This project uses **simulated spatial sampling** to approximate **street-level A
 
 ---
 
-## 📌 Project Status
-Final prototype developed as part of AI/ML Hackathon with data-centric approach.
-
----
 ## 👥 Team
 Hackathon Project – **5ManArmy**
