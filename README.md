@@ -85,5 +85,33 @@ This project uses **simulated spatial sampling** to approximate **street-level A
 
 ---
 
+## Revised Prototype
+
+- Multi-source AQI and weather data integration
+- XGBoost AQI prediction
+- Feature engineering
+- Current vs Future AQI heatmaps
+- AQI risk classification
+
+### Current Progress
+
+- Uploaded Chennai AQI dataset
+- Uploaded Chennai weather dataset
+- Uploaded Chennai city information dataset
+- Performed initial data preprocessing
+- Handled missing values and data cleaning
+- Prepared datasets for AQI forecasting
+- Developed Google Colab notebook for model training
+
+### Next Steps
+
+- Merge AQI and weather datasets
+- Create lag and time-based features
+- Train XGBoost model
+- Evaluate prediction accuracy
+- Generate AQI forecasting visualizations
+
+ ---
+ 
 ## 👥 Team
 Hackathon Project – **5ManArmy**
