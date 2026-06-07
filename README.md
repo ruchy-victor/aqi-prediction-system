@@ -112,6 +112,13 @@ This project uses **simulated spatial sampling** to approximate **street-level A
 - Generate AQI forecasting visualizations
 
  ---
- 
+
+ ## Notebook
+
+Google Colab Notebook:
+https://drive.google.com/file/d/1Y2T6fpWl2iJQlo-1ykx_bIVMnVDZ2a0P/view?usp=sharing
+
+---
+
 ## 👥 Team
 Hackathon Project – **5ManArmy**
